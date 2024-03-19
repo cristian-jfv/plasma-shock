@@ -1,4 +1,4 @@
-Three numerical MHD schemes are implemented to model a schock inside a plasma:
+Three numerical MHD schemes are implemented to model a shock inside a plasma:
 - Lax-Friedrichs (LxF)
 - Total Variation Diminishing Lax-Friedrichs (TVD-LxF)
 - First Order Arithmetic Mean Matrix (FOAMM)
@@ -9,4 +9,4 @@ $$
 \frac{\partial \vec{u}}{\partial t} + \frac{\partial \vec{f}}{\partial x} = \vec{0},
 $$
 
-taking the discretization, where the flux $\vec{f}$ is approximated at the cells interfaces by the schemes.
+where the flux $\vec{f}$ is approximated at the cell interfaces by the schemes.
